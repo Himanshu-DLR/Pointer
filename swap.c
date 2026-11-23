@@ -11,7 +11,7 @@ int main()
     *p=*q;  
     *q=temp;
     printf("After swapping:\n");
-    printf("a=%d\n",a);
-    printf("b=%d\n",b);
+    printf("a=%d\n",*p);
+    printf("b=%d\n",*q);
     return 0;
 }
